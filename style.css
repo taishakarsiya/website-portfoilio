@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(10, 10, 10);
+    margin: 50px;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color:  lightcoral;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: antiquewhite;
+}
+ .item{position:relative;} 
+ .item p{position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity  : 0;
+ }
+.item:hover p {opacity:1;} 
+.item:hover img{opacity:  0.1;} 
+body{background-color: black;}
+ 
